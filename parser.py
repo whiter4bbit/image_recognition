@@ -9,8 +9,8 @@ def parse(path, up):
    matr = [[-1 for i in xrange(len(lines[0]))] for j in xrange(len(lines))]
    for i in xrange(len(lines)):
       for j in xrange(len(lines[0])):
-      	 if lines[i][j]==up:
-	    matr[i][j] = 1
+         if lines[i][j]==up:
+            matr[i][j] = 1
    return matr
-   
-  
+
+
