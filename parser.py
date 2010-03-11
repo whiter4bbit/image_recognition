@@ -12,5 +12,3 @@ def parse(path, up):
          if lines[i][j]==up:
             matr[i][j] = 1
    return matr
-
-

@@ -77,7 +77,6 @@ class HopfieldNetw(object):
 
 from parser import parse
 
-
 if __name__=="__main__":
     train_figures = {'test/10x10_trained/': ['0', '1', '2', '3','4', '5', '6', '7', '8', '9']}
     test_figures = {'test/10x10_damaged/': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '2_']}
